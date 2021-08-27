@@ -10,7 +10,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron: '5 08 * * *'
+    - cron: '10 8 * * *'
 jobs:
   build:
     runs-on: ${{ matrix.os }}
